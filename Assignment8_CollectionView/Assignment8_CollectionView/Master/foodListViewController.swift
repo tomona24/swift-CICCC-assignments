@@ -13,7 +13,6 @@ class foodListViewController: UIViewController, UICollectionViewDelegate {
     
     private let restaurantCellId = "restaurantCell"
     
-
     override func loadView() {
         super.loadView()
         let foodListLayout = UICollectionViewFlowLayout()

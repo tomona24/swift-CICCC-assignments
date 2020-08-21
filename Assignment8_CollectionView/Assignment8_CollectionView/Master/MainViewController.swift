@@ -10,13 +10,13 @@ import UIKit
 
 class MainViewController: UIViewController {
     private var restaurants: [Restaurant] = Restaurant.restaurants()
-    private var filtereRestaurants: [Restaurant] = []
+    private var filteredRestaurants: [Restaurant] = []
+    var checked: [String] = []
     let categoryListVC = foodCategoryViewController()
     let foodListVC = foodListViewController()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         // Do any additional setup after loading the view.
         view.backgroundColor = UIColor.fogGray
         navigationController?.navigationBar.prefersLargeTitles = false
@@ -28,9 +28,6 @@ class MainViewController: UIViewController {
     
     func setupChildren() {
         
-        var label = UILabel()
-        label.text = "aiut"
-    
         foodListVC.restaurants = restaurants
         categoryListVC.restaurants = restaurants
         
@@ -45,15 +42,19 @@ class MainViewController: UIViewController {
         
         view.addSubview(vStack)
         vStack.anchors(topAnchor: view.safeAreaLayoutGuide.topAnchor, leadingAnchor: view.leadingAnchor, trailingAnchor: view.trailingAnchor, bottomAnchor: view.safeAreaLayoutGuide.bottomAnchor, padding: .init(top: 0, left: 0, bottom: 0, right: 0))
-//        NSLayoutConstraint.activate([
-//            categoryListVC.view.heightAnchor.constraint(equalToConstant: 100),
-//            categoryListVC.view.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 1.0),
-//            categoryListVC.view.heightAnchor.constraint(equalToConstant: 0.0),
-//            categoryListVC.view.widthAnchor.constraint(equalTo: categoryListVC.view.widthAnchor, multiplier: 1.0),
-//        ])
     }
     
 
+    @objc func addfilter(_ sender: UIButton) {
+        checked.append(sender.titleLabel!.text!)
+        var filtered = restaurants.filter { (restaurant) in
+            if checked.contains(restaurant.category.rawValue){
+                return true
+            } else {return false}
+        }
+        filteredRestaurants.append(contentsOf: filtered)
+        sender.backgroundColor = .fogGray
+    }
     
     /*
      // MARK: - Navigation

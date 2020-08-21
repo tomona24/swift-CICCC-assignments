@@ -19,6 +19,8 @@ class foodCategoryCollectionViewCell: UICollectionViewCell {
         return btn
     }()
     
+    var isChecked = false
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
