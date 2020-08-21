@@ -1,0 +1,47 @@
+[
+    { "name": "Rokusan tei", "category": "Japanese", "time": [
+        "Lunch",
+        "Dinner"
+    ], "img": "Rokusantei.jpg" },
+    { "name": "Oasis", "category": "Italian", "time": [
+        "Lunch",
+        "Dinner"], "img": "Oasis.jpg" },
+    { "name": "Ibuki", "category": "Japanese", "time": [
+        "Dinner"
+    ], "img": "Ibuki.jpg" },
+    { "name": "Konbuya", "category": "Japanese" , "time": [
+        "Dinner",
+    ], "img": "Konbuya.jpg" },
+    { "name": "Gilio", "category": "Italian" , "time": [
+        "Breakfast",
+        "Lunch",
+        "Dinner"
+    ], "img": "Gilio.jpg" },
+    { "name": "APPARTEMENT301", "category": "Cafe" , "time": [
+        "Lunch",
+        "Dinner",
+    ], "img": "APPARTEMENT301.jpg" },
+    { "name": "La Sfoglina", "category": "Italian", "time": [ "Dinner"
+    ], "img": "LaSfoglina.jpg" },
+    { "name": "Yokoyama", "category": "Bakery", "time": [
+        "Breakfast",
+        "Lunch"
+    ], "img": "yokoyama_bak.jpg" },
+    { "name": "SUGIURA", "category": "French", "time": [
+        "Lunch",
+        "Dinner"
+    ], "img": "sugiura_frc.jpg" },
+    { "name": "Tomato house", "category": "Korean", "time": [
+        "Lunch",
+        "Dinner"
+    ], "img": "Tomatohouse.jpg" },
+   
+    { "name": "Dashenka", "category": "Other", "time": [
+        "Lunch",
+        "Dinner"
+    ], "img": "Dashenka.jpg" },
+    { "name": "Moto", "category": "Japanese", "time": [
+        "Dinner"
+    ], "img": "moto.png" },
+]
+ 
