@@ -107,3 +107,20 @@ extension Restaurant.Time: RawRepresentable {
     }
 }
 
+
+
+extension Restaurant {
+  static func restaurants() -> [Restaurant] {
+    guard
+      let url = Bundle.main.url(forResource: "restaurant", withExtension: "json"),
+      let data = try? Data(contentsOf: url)
+      else { return [] }
+    
+    do {
+      return try JSONDecoder().decode([Restaurant].self, from: data)
+    } catch {
+      print(error.localizedDescription)
+      return []
+    }
+  }
+}

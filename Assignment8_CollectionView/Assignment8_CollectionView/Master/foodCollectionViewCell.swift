@@ -14,7 +14,6 @@ class foodCollectionViewCell: UICollectionViewCell {
         iv.translatesAutoresizingMaskIntoConstraints = false
         iv.contentMode = .scaleAspectFill
         iv.layer.masksToBounds = true
-//        iv.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         return iv
     }()
     
@@ -38,13 +37,17 @@ class foodCollectionViewCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        
+        
         let vStack = VerticalStackView(arrangedSubviews: [
         categoryLabel,
         nameLabel,
         imageView,
         timeLabel
-        ], spacing: 5, alignment: .leading, distribution: .fill)
+        ], spacing: 1, alignment: .leading, distribution: .fill)
         contentView.addSubview(vStack)
+    
+        
         vStack.anchors(topAnchor: contentView.safeAreaLayoutGuide.topAnchor, leadingAnchor: contentView.leadingAnchor, trailingAnchor: contentView.trailingAnchor, bottomAnchor: contentView.safeAreaLayoutGuide.bottomAnchor)
     }
     

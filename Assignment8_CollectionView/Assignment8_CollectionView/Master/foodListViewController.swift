@@ -5,16 +5,11 @@
 //  Created by Tomona Sako on 2020/08/20.
 //  Copyright © 2020 Tomona Sako. All rights reserved.
 //
-
 import UIKit
 
 class foodListViewController: UIViewController, UICollectionViewDelegate {
     private var foodListView: UICollectionView!
-    private var restaurants = [Restaurant]()
-    
-    private let r1 = Restaurant(name: "moto", category: .japanese, time: [.dinner], img: "moto")
-    private let r2 = Restaurant(name: "APPARTEMENT301", category: .cafe, time: [.lunch, .dinner], img: "APPARTEMENT301")
-    private let r3 = Restaurant(name: "Ibuki", category: .japanese, time: [.dinner], img: "Ibuki")
+    var restaurants: [Restaurant] = []
     
     private let restaurantCellId = "restaurantCell"
     
@@ -33,15 +28,9 @@ class foodListViewController: UIViewController, UICollectionViewDelegate {
         super.viewDidLoad()
         
         // for example
-        restaurants.append(contentsOf: [r1, r2, r3])
-        
         view.backgroundColor = UIColor.fogGray
-        navigationController?.navigationBar.prefersLargeTitles = false
-        navigationItem.title = "Restraunt menu"
-        navigationController?.navigationBar.barTintColor = UIColor.mainOrange
-   
         // collectionView
-        foodListView.contentInset = .init(top: 44, left: 0, bottom: 44, right: 0)
+        foodListView.contentInset = .init(top: 5, left: 0, bottom: 5, right: 0)
         foodListView.register(foodCollectionViewCell.self, forCellWithReuseIdentifier: restaurantCellId)
         foodListView.dataSource = self
         foodListView.delegate = self

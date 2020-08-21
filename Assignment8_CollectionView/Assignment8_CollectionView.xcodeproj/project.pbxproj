@@ -11,12 +11,14 @@
 		6221499624EF386D0023BC2A /* foodCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6221499524EF386D0023BC2A /* foodCategoryViewController.swift */; };
 		6221499824EF38BF0023BC2A /* foodListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6221499724EF38BF0023BC2A /* foodListViewController.swift */; };
 		6221499A24EF38F70023BC2A /* foodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6221499924EF38F70023BC2A /* foodCollectionViewCell.swift */; };
-		6221499F24EF3CF90023BC2A /* UIColor+HexRgb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6221499D24EF3CF90023BC2A /* UIColor+HexRgb.swift */; };
 		622149A324EF3D120023BC2A /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622149A224EF3D120023BC2A /* ColorTheme.swift */; };
 		622149A524EF4D910023BC2A /* restaurant.json in Resources */ = {isa = PBXBuildFile; fileRef = 622149A424EF4D910023BC2A /* restaurant.json */; };
-		622149AA24EF5CF00023BC2A /* HorizontalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622149A624EF5CF00023BC2A /* HorizontalStackView.swift */; };
-		622149AB24EF5CF00023BC2A /* UIView+ConstraintLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622149A724EF5CF00023BC2A /* UIView+ConstraintLayout.swift */; };
-		622149AC24EF5CF00023BC2A /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622149A824EF5CF00023BC2A /* VerticalStackView.swift */; };
+		622149B224EF7E580023BC2A /* VerticalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622149AE24EF7E580023BC2A /* VerticalStackView.swift */; };
+		622149B324EF7E580023BC2A /* UIView+ConstraintLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622149AF24EF7E580023BC2A /* UIView+ConstraintLayout.swift */; };
+		622149B424EF7E580023BC2A /* HorizontalStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622149B024EF7E580023BC2A /* HorizontalStackView.swift */; };
+		622149B724EF7EE10023BC2A /* UIColor+HexRgb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622149B624EF7EE10023BC2A /* UIColor+HexRgb.swift */; };
+		622149B924EF800F0023BC2A /* foodCategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622149B824EF800F0023BC2A /* foodCategoryCollectionViewCell.swift */; };
+		622149BD24EF91CB0023BC2A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 622149BC24EF91CB0023BC2A /* MainViewController.swift */; };
 		627CC42D24EEC134005E5689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CC42C24EEC134005E5689 /* AppDelegate.swift */; };
 		627CC42F24EEC134005E5689 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 627CC42E24EEC134005E5689 /* SceneDelegate.swift */; };
 		627CC43424EEC134005E5689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 627CC43224EEC134005E5689 /* Main.storyboard */; };
@@ -29,12 +31,14 @@
 		6221499524EF386D0023BC2A /* foodCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodCategoryViewController.swift; sourceTree = "<group>"; };
 		6221499724EF38BF0023BC2A /* foodListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodListViewController.swift; sourceTree = "<group>"; };
 		6221499924EF38F70023BC2A /* foodCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodCollectionViewCell.swift; sourceTree = "<group>"; };
-		6221499D24EF3CF90023BC2A /* UIColor+HexRgb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexRgb.swift"; sourceTree = "<group>"; };
 		622149A224EF3D120023BC2A /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
 		622149A424EF4D910023BC2A /* restaurant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = restaurant.json; sourceTree = "<group>"; };
-		622149A624EF5CF00023BC2A /* HorizontalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalStackView.swift; sourceTree = "<group>"; };
-		622149A724EF5CF00023BC2A /* UIView+ConstraintLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+ConstraintLayout.swift"; path = "../../../SushiLoverDemo 2/SushiLoverDemo/Utils/UIView+ConstraintLayout.swift"; sourceTree = "<group>"; };
-		622149A824EF5CF00023BC2A /* VerticalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		622149AE24EF7E580023BC2A /* VerticalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerticalStackView.swift; sourceTree = "<group>"; };
+		622149AF24EF7E580023BC2A /* UIView+ConstraintLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ConstraintLayout.swift"; sourceTree = "<group>"; };
+		622149B024EF7E580023BC2A /* HorizontalStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalStackView.swift; sourceTree = "<group>"; };
+		622149B624EF7EE10023BC2A /* UIColor+HexRgb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+HexRgb.swift"; sourceTree = "<group>"; };
+		622149B824EF800F0023BC2A /* foodCategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodCategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		622149BC24EF91CB0023BC2A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		627CC42924EEC134005E5689 /* Assignment8_CollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment8_CollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		627CC42C24EEC134005E5689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		627CC42E24EEC134005E5689 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,10 +62,10 @@
 		6221498F24EF37630023BC2A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				622149A624EF5CF00023BC2A /* HorizontalStackView.swift */,
-				622149A724EF5CF00023BC2A /* UIView+ConstraintLayout.swift */,
-				622149A824EF5CF00023BC2A /* VerticalStackView.swift */,
-				6221499D24EF3CF90023BC2A /* UIColor+HexRgb.swift */,
+				622149B024EF7E580023BC2A /* HorizontalStackView.swift */,
+				622149B624EF7EE10023BC2A /* UIColor+HexRgb.swift */,
+				622149AF24EF7E580023BC2A /* UIView+ConstraintLayout.swift */,
+				622149AE24EF7E580023BC2A /* VerticalStackView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -72,7 +76,6 @@
 				627CC43524EEC136005E5689 /* Assets.xcassets */,
 				627CC42E24EEC134005E5689 /* SceneDelegate.swift */,
 				627CC42C24EEC134005E5689 /* AppDelegate.swift */,
-				6221499724EF38BF0023BC2A /* foodListViewController.swift */,
 				627CC43724EEC136005E5689 /* LaunchScreen.storyboard */,
 			);
 			path = "Supporting Files";
@@ -90,6 +93,9 @@
 			isa = PBXGroup;
 			children = (
 				6221499524EF386D0023BC2A /* foodCategoryViewController.swift */,
+				6221499724EF38BF0023BC2A /* foodListViewController.swift */,
+				622149BC24EF91CB0023BC2A /* MainViewController.swift */,
+				622149B824EF800F0023BC2A /* foodCategoryCollectionViewCell.swift */,
 				6221499924EF38F70023BC2A /* foodCollectionViewCell.swift */,
 			);
 			path = Master;
@@ -206,17 +212,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				622149B924EF800F0023BC2A /* foodCategoryCollectionViewCell.swift in Sources */,
+				622149BD24EF91CB0023BC2A /* MainViewController.swift in Sources */,
 				622149A324EF3D120023BC2A /* ColorTheme.swift in Sources */,
-				622149AC24EF5CF00023BC2A /* VerticalStackView.swift in Sources */,
 				627CC42D24EEC134005E5689 /* AppDelegate.swift in Sources */,
 				6221499224EF379C0023BC2A /* Restaurant.swift in Sources */,
 				6221499A24EF38F70023BC2A /* foodCollectionViewCell.swift in Sources */,
 				627CC42F24EEC134005E5689 /* SceneDelegate.swift in Sources */,
+				622149B224EF7E580023BC2A /* VerticalStackView.swift in Sources */,
+				622149B724EF7EE10023BC2A /* UIColor+HexRgb.swift in Sources */,
+				622149B324EF7E580023BC2A /* UIView+ConstraintLayout.swift in Sources */,
 				6221499624EF386D0023BC2A /* foodCategoryViewController.swift in Sources */,
 				6221499824EF38BF0023BC2A /* foodListViewController.swift in Sources */,
-				622149AB24EF5CF00023BC2A /* UIView+ConstraintLayout.swift in Sources */,
-				6221499F24EF3CF90023BC2A /* UIColor+HexRgb.swift in Sources */,
-				622149AA24EF5CF00023BC2A /* HorizontalStackView.swift in Sources */,
+				622149B424EF7E580023BC2A /* HorizontalStackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
